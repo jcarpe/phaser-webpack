@@ -1,0 +1,36 @@
+{
+    "parser": "babel-eslint",
+    "extends": "standard",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "import/no-unresolved": [2]
+    },
+    "globals": {
+      "phaser": true
+    },
+    "settings": {
+        "import/core-modules": ["phaser", "pixi", "p2"]
+    }
+}

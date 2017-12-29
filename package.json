@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx webpack-dev-server --open",
+    "build": "npm webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joe Carpenito",
