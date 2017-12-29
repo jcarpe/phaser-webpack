@@ -10,8 +10,8 @@
     },
     "rules": {
         "indent": [
-            "error",
-            "tab"
+            "warn",
+            2
         ],
         "linebreak-style": [
             "error",
@@ -22,7 +22,7 @@
             "single"
         ],
         "semi": [
-            "error",
+            "warn",
             "always"
         ],
         "import/no-unresolved": [2]
